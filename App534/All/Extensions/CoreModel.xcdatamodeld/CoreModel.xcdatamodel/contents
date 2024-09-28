@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="FlowerModel" representedClassName="FlowerModel" syncable="YES" codeGenerationType="class">
+        <attribute name="flAmount" optional="YES" attributeType="String"/>
+        <attribute name="flDescr" optional="YES" attributeType="String"/>
+        <attribute name="flName" optional="YES" attributeType="String"/>
+        <attribute name="flPrice" optional="YES" attributeType="String"/>
+        <attribute name="flSupp" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SuppModel" representedClassName="SuppModel" syncable="YES" codeGenerationType="class">
+        <attribute name="supAmount" optional="YES" attributeType="String"/>
+        <attribute name="supFlow" optional="YES" attributeType="String"/>
+        <attribute name="supName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TransModel" representedClassName="TransModel" syncable="YES" codeGenerationType="class">
+        <attribute name="trDate" optional="YES" attributeType="String"/>
+        <attribute name="trPurch" optional="YES" attributeType="String"/>
+        <attribute name="trSup" optional="YES" attributeType="String"/>
+        <attribute name="trTC" optional="YES" attributeType="String"/>
+    </entity>
+</model>
