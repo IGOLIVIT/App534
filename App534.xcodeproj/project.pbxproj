@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7809B93A2CC26A1000D089BF /* Smort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809B9392CC26A1000D089BF /* Smort.swift */; };
+		7809B93C2CC26A1600D089BF /* Wear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809B93B2CC26A1600D089BF /* Wear.swift */; };
+		7809B93E2CC26A2000D089BF /* Djon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809B93D2CC26A2000D089BF /* Djon.swift */; };
 		78AE35B42CA8271600CE087E /* SuppliersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AE35B32CA8271600CE087E /* SuppliersViewModel.swift */; };
 		78AE35B62CA8274F00CE087E /* DateConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AE35B52CA8274F00CE087E /* DateConvert.swift */; };
 		78AE35B92CA82A7C00CE087E /* AddSupp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AE35B82CA82A7C00CE087E /* AddSupp.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7809B9392CC26A1000D089BF /* Smort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smort.swift; sourceTree = "<group>"; };
+		7809B93B2CC26A1600D089BF /* Wear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wear.swift; sourceTree = "<group>"; };
+		7809B93D2CC26A2000D089BF /* Djon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Djon.swift; sourceTree = "<group>"; };
 		78AE35B32CA8271600CE087E /* SuppliersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuppliersViewModel.swift; sourceTree = "<group>"; };
 		78AE35B52CA8274F00CE087E /* DateConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConvert.swift; sourceTree = "<group>"; };
 		78AE35B82CA82A7C00CE087E /* AddSupp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSupp.swift; sourceTree = "<group>"; };
@@ -191,6 +197,9 @@
 				78DE9BA82CA5D5A700460EB5 /* CoreDataStack.swift */,
 				78DE9BAA2CA5D5AE00460EB5 /* Array.swift */,
 				78AE35B52CA8274F00CE087E /* DateConvert.swift */,
+				7809B9392CC26A1000D089BF /* Smort.swift */,
+				7809B93B2CC26A1600D089BF /* Wear.swift */,
+				7809B93D2CC26A2000D089BF /* Djon.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -349,13 +358,16 @@
 				78DE9B9B2CA5D56E00460EB5 /* LoadingView.swift in Sources */,
 				78AE35BC2CA82A8C00CE087E /* AddTrans.swift in Sources */,
 				78DE9BA52CA5D59900460EB5 /* UON.swift in Sources */,
+				7809B93C2CC26A1600D089BF /* Wear.swift in Sources */,
 				78AE35B92CA82A7C00CE087E /* AddSupp.swift in Sources */,
 				78DE9BA32CA5D58D00460EB5 /* UOR.swift in Sources */,
 				78AE35C72CA8741C00CE087E /* SuppDetail.swift in Sources */,
 				78DE9B992CA5D56400460EB5 /* CoreModel.xcdatamodeld in Sources */,
+				7809B93A2CC26A1000D089BF /* Smort.swift in Sources */,
 				78AE35B42CA8271600CE087E /* SuppliersViewModel.swift in Sources */,
 				78DE9B9D2CA5D57300460EB5 /* R1.swift in Sources */,
 				78AE35C12CA8645F00CE087E /* AddFlower.swift in Sources */,
+				7809B93E2CC26A2000D089BF /* Djon.swift in Sources */,
 				78DE9BA92CA5D5A700460EB5 /* CoreDataStack.swift in Sources */,
 				78DE9BB12CA5D5CD00460EB5 /* FlowersView.swift in Sources */,
 				78AE35C42CA8704800CE087E /* FlowerDetail.swift in Sources */,
@@ -496,7 +508,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App534/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = CyberVille;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pöcket Ọptiōŋ Cyber Assistant";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -512,7 +524,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App534;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -535,7 +547,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App534/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = CyberVille;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pöcket Ọptiōŋ Cyber Assistant";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -551,7 +563,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App534;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
